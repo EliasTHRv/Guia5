@@ -21,8 +21,8 @@ public class Ejercicio5 {
         {
             for (int j = 0; j < 3; j++)
             {
-                matriz[i][j] = aleatorio.nextInt(100 + 100 + 1) - 100;
-                System.out.print(" " + matriz[i][j]);
+                matriz[i][j] = aleatorio.nextInt(1,10) ;
+                System.out.print("[" + matriz[i][j]+"]");
             }
             System.out.println("");
         }
