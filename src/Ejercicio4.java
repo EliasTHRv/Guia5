@@ -13,7 +13,7 @@ public class Ejercicio4 {
     public static void main(String[] args) {
         int[][] matRiz = new int[4][4];
         int[][] matTrans = new int[4][4];
-        Random alea = new Random(100);
+        Random alea = new Random();
 
         for (int i = 0; i < matRiz.length; i++)
         {
