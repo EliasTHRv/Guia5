@@ -15,6 +15,9 @@ public class Extra1 {
         int n = leerN.nextInt();
         int[] vec1 = new int[n];
         
+        
+        System.out.println("  ");
+        
         for (int i = 0; i < vec1.length; i++)
         {
             System.out.print("Ingrese elementos al vector: " +"["+ i + "]");
