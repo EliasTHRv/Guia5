@@ -17,15 +17,17 @@ public class Extra1 {
         
         
         System.out.println("  ");
-        
+        //rellenado
         for (int i = 0; i < vec1.length; i++)
         {
             System.out.print("Ingrese elementos al vector: " +"["+ i + "]");
             vec1[i]= leerN.nextInt();
         }
+        //suma de vector
         for (int i = 0; i < vec1.length; i++)
         {
             aux +=vec1[i];
+//            aux = aux + vec1[i];
         }
         System.out.println("La suma de todos los elementos del vector es: " + aux);
     }

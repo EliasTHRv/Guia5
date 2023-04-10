@@ -22,13 +22,21 @@ public class Extra3 {
         System.out.println("");
         mostraV(n, vec1);
         System.out.println("");
+         rellenarV(n, vec1);
+        System.out.println("");
+        mostraV(n, vec1);
+        System.out.println("");
+         rellenarV(n, vec1);
+        System.out.println("");
+        mostraV(n, vec1);
+        System.out.println("");
     }
     
     public static void rellenarV(int n, int vec1[]) {
         Random alea = new Random();
         for (int i = 0; i < n; i++)
         {
-            vec1[i] = alea.nextInt(-10, 0);
+            vec1[i] = alea.nextInt(-10, 10);
         }
     }
     
